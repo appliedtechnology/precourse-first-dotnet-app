@@ -13,7 +13,7 @@ namespace snallWeeks_lab_firstDotNetApp
       Console.Write("What is your name? ");
       var name = Console.ReadLine();
 
-      var greeting = Greet(name);
+      var greeting = greet(name);
 
       Console.WriteLine(greeting);
     }
